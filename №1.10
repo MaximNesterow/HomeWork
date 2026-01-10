@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
- int a, b, c;
+ float a, b, c;
  cout<<"Enter 3 number: ";
  cin>>a>>b>>c;
  if ((a+b)>c && (a+c)>b && (b+c)>a) {
@@ -9,6 +9,6 @@ int main() {
   if ((a*a+b*b)==c*c || (a*a+c*c)==b*b || (b*b+c*c)==a*a) cout<<"right-angled";
   else cout<<"no right-angled";
  }
- else cout<<"No";
+ else cout<<"NO";
  return 0;
 }
