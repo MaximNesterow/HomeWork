@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int a, b, c;
+ cout<<"Enter number: ";
+ cin>>a;
+ b=(a/100)+(a%10)+((a/10)%10);
+ c=(a/100)*(a%10)*((a/10)%10);
+ cout<<"Adding: "<<b<<"\nMultiplying: "<<c;
+ return 0;
+}
