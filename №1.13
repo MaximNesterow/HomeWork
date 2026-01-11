@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int a, b;
+ cout<<"Enter X and Y: ";
+ cin>>a>>b;
+ if (a==0 && b==0) cout<<"Zero";
+ else if (a==0) cout<<"Axis 0Y";
+ else if (b==0) cout<<"Axis 0X";
+ else if (a>0 && b>0) cout<<"First quarter";
+ else if (a<0 && b>0) cout<<"Second quarter";
+ else if (a<0 && b<0) cout<<"Third quarter";
+ else cout<<"Fourth quarter";
+ return 0;
+}
