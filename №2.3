@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+ float a, b=0, c=0;
+ cout<<"Enter first number: ";
+ cin>>a;
+ while (a!=0) {
+  b+=a;
+  c+=1;
+  cout<<"Enter "<<c+1<<" number: ";
+  cin>>a;
+ }
+ cout<<c<<") "<<b/c<<endl;
+ return 0;
+}
