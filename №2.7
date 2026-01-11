@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int a, b, c=0;
+ cout<<"Enter 2 number: ";
+ cin>>a>>b;
+ while (b>a) {
+  b-=a;
+  c++;
+  a+=20;
+ }
+ cout<<c;
+ return 0;
+}
