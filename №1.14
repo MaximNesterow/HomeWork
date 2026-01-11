@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int a, b;
+ cout<<"Enter X and Y: ";
+ cin>>a>>b;
+ if ((a*a+b*b)<25) cout<<"Inside circle";
+ else if ((a*a+b*b)==25) cout<<"On circle";
+ else cout<<"Outside circle";
+ return 0;
+}
