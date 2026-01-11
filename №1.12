@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+ long long a, b, c;
+ cout<<"Enter number: ";
+ cin>>a;
+ cout<<"Megabytes - 0, kilobytes - 1, bytes - 2, bits - 3\n";
+ cout<<"Enter number: ";
+ cin>>b;
+ if (b==0) c=a*1024;
+ else if (b==1) c=a*1024*1024;
+ else if (b==2) c=a*1024*1024*1024;
+ else c=a*1024*1024*1024*8;
+ cout<<"Answer: "<<c;
+ return 0;
+}
