@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+ for (int i=400; true; i++) if (i%19==0) {
+  cout<<"Min: "<<i<<endl;
+  break;
+ }
+ for (int i=800; true; i--) if (i%19==0) {
+  cout<<"Max: "<<i;
+  break;
+ }
+ return 0;
+}
